@@ -22,8 +22,10 @@ div.m {
     background-color: white;
     width: 50%;
     margin-top: 50px;
-    margin-left: 0px;
+    margin-left: 10%;
     height: auto;
+    border: 15px solid white ;
+    border-radius: 15px;
 
 }
 a{
