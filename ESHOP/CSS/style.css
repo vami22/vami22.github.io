@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    background-color: #e2e9f5;
+}
+* {
+    box-sizing: border-box;
+  }
+.hlavne {
+    padding: 10px;
+    background-color: #ec6a8f;
+    box-shadow: 10px 5px 15px black;
+    margin-bottom: 50px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column1 {
+    float: left;
+    width: 20%;
+    height: auto;
+    margin-left: 10%;
+}
+.column2 {
+    float:left;
+    width:50%;
+    margin-left: 20px;
+    margin-right: 10%;
+}
+.column3 {
+    width:33%;
+    margin: auto;
+}
+.prvy {
+}
+.column2 li{
+    display: inline;
+    padding: 30px;
+    width: 50px;
+    margin-left: 10px;
+}
+li h3:hover{
+    background-color: azure;
+    padding: 5px;
+    border-radius: 5px 5px;
+} 
+.column2 ul{
+    display: block;
+    width: auto;
+    text-align: right;
+    margin-top:15px;
+
+}
+h3 {
+    margin:auto;
+    display: inline;
+}
+.zmiz {
+    display: none;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    border-radius: 15px 15px;
+}
+
+.slider {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: auto; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.column1 ul {
+    float: left;
+    list-style: none;
+    width: 80%;
+    margin-left: 10px;
+}
+.column1 ul li {
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+
+}
+.column1 ul li a:hover {
+    padding-left: 20px;
+    background-color: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    margin-left: 20px;
+    margin-bottom: 0px;
+
+}
