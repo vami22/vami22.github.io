@@ -28,6 +28,7 @@ body{
     width:50%;
     margin-left: 50px;
     margin-right: 10%;
+    overflow: hidden;
 }
 .column3 {
     width:33%;
@@ -106,6 +107,23 @@ h1{
     margin-bottom: 0px;
 
 }
+.vedla{
+    display: inline;
+}
+.produkty{
+    display: inline;
+    margin-top: 0px;
+    overflow: hidden;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.produkty .obrazky {
+    width: 25%;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+}
 .paticka {
     margin-bottom: 0px;
 }
@@ -119,9 +137,14 @@ h1{
     display: inline;
     width:50px;
     height: auto;
-    t
+    margin-left: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    transform: translateY(50%);
 }
 .medzery{
-    display: flex;
-    justify-content: ;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
