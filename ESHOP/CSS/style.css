@@ -1,13 +1,13 @@
 body{
     margin: 0px;
-    background-color: #e2e9f5;
+    background: linear-gradient( rgba(198,11,11,0.9475140397956058) 0%, rgba(2,2,107,0.6982143199076505) 100%);
 }
 * {
     box-sizing: border-box;
   }
 .hlavne {
     padding: 10px;
-    background-color: #ec6a8f;
+    background-color:#f0f2f5;
     box-shadow: 0px 3px 15px black;
     margin-bottom: 50px;
 
@@ -22,23 +22,30 @@ body{
     width: 20%;
     height: auto;
     margin-left: 10%;
+    margin-right:5%;
 }
 .column2 {
-    float:left;
+    float:right;
     width:50%;
     margin-left: 50px;
-    margin-right: 10%;
     overflow: hidden;
+    margin-right: 10%;
 }
 .column3 {
-    width:33%;
-    margin: auto;
+    overflow: hidden;
+    width:20%;
+    float: right;
+    margin-right: 10%;
 }
 .menu {
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
+}
+.pa {
+    background-color: black;
+    color: #f0f2f5;
 }
 .prvy {
     margin-top: 125px;
@@ -48,6 +55,7 @@ body{
     padding: 30px;
     width: 50px;
     margin-left: 10px;
+    margin-right: 0px;
 }
 .column2 ul li:hover{
     background-color: #f085a3;
@@ -57,6 +65,7 @@ body{
     width: auto;
     text-align: right;
     margin-top:15px;
+    margin-right: 0px;
 
 }
 h3 {
@@ -110,30 +119,25 @@ h1{
 .vedla{
     display: inline;
 }
-.produkty{
-    display: inline;
-    margin-top: 0px;
-    overflow: hidden;
-    float: left;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-.produkty .obrazky {
-    width: 25%;
-    height: auto;
-    margin-left: 0px;
-    margin-top: 0px;
+.column3 img{
+    width: 100%;
 }
 .paticka {
     margin-bottom: 0px;
+    color:white
 }
 .paticka .column1 ul {
     width:90%;
 }
 .paticka .column1 ul li {
-    font-size: 15px
+
+    border-bottom: 1px solid #f0f2f5;
 }
-.column2 img {
+.paticka .column1 ul li a {
+    color: #f0f2f5;
+    font-size: 15px;
+}
+.column2 .medzery img {
     display: inline;
     width:50px;
     height: auto;
