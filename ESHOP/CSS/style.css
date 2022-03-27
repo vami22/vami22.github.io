@@ -26,23 +26,23 @@ body{
 }
 .column2 {
     float:right;
-    width:50%;
+    width:55%;
     margin-left: 50px;
     overflow: hidden;
     margin-right: 10%;
 }
 .column3 {
     overflow: hidden;
-    width:30%;
+    width:25%;
     float: right;
-    margin-right: 5%;
+    margin-right: 10%;
     margin-left: 0px;
 }
 .bok {
-    margin-right: 10px;
+    margin-right: 5%;
 }
 .menu {
-    overflow: hidden;
+    overflow:visible;
     position: fixed;
     top: 0;
     width: 100%;
@@ -79,14 +79,28 @@ h3 {
     margin:auto;
     display: inline;
 }
+.podnadpis {
+    margin-top: 0px;
+}
 .zmiz {
     display: none;
 }
-
+.tu {
+    background-color:black ;
+    padding-left: 20px;
+    color: #f0f2f5;
+}
+.l {
+    position: absolute;
+    left:250px;
+    top:5px;
+}
 .logo {
-    width: 50px;
+    position: absolute;
+    top:15px;
+    width: 100px;
     height: auto;
-    border-radius: 15px 15px;
+    border-radius: 50%;
 }
 
 .slider {
@@ -110,6 +124,9 @@ h3 {
     border-bottom: 1px solid black;
 
 }
+.column2 ul li a{
+    color:#f0f2f5;
+}
 .column1 ul li a:hover {
     padding-left: 20px;
     background-color: none;
@@ -123,21 +140,53 @@ h1{
     margin-bottom: 0px;
 
 }
+h5{
+    font-size:30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+h6 {
+    font-size: 15px;
+    color:red;
+    display: inline;
+    margin-right: 2%;
+    text-align: center;
+}
+.cena {
+    color: grey;
+    text-decoration: line-through;
+    margin-left: 0px;
+}
 .vedla{
     display: inline;
 }
-.column3 img{
-    width: 70%;
+p img {
     margin-left: auto;
     margin-right: auto;
-    border: 10px solid white;
+}
+.column3 img{
+    height: 80%;
+    width: auto;
+
 }
 .pr {
     overflow: hidden;
-    width: 70%;
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.column1 .hlavne img {
+    margin: auto;
+    margin-left: 20px;
 }
 .column3 img:hover{
-    border:none;
+    height:90%;
+    width: auto;
 }
 .paticka {
     margin-bottom: 0px;
