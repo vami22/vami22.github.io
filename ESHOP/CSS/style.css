@@ -12,6 +12,13 @@ body{
     margin-bottom: 50px;
 
 }
+.ikony {
+    display:absolute ;
+    height: 20px;
+    width: auto;
+    top: 0px;
+    left: 100%;
+}
 .row:after {
     content: "";
     display: table;
